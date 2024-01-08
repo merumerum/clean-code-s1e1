@@ -16,9 +16,9 @@ body {
 .aaa .more_inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
-  .aaa { text-align: center;
+  .aaa { 
+    text-align: center;
   }
 }
 .centered-main-page-element {
@@ -38,10 +38,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h2 {
+li,
+h2 {
   list-style: none;
 }
-input, button{
+input,
+button {
   outline: none;
 }
 button {
